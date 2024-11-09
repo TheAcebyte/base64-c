@@ -18,7 +18,8 @@ Base64 encoding causes an overhead of roughly 33%, as it turns each 3-byte group
 
 **3. Padding:** In case the last group does not have enough bytes to map to a 4-byte output, the encoded text is padded with equal signs "=".
 
-**Lookup Table<sup><b>*</b></sup>:**\
+**Lookup Table:**
+
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200520142906/1461.png">
 
 ### How about an example?
