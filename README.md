@@ -18,10 +18,10 @@ Base64 encoding causes an overhead of roughly 33%, as it turns each 3-byte group
 
 **3. Padding:** In case the last group does not have enough bytes to map to a 4-byte output, the encoded text is padded with equal signs "=".
 
-**Lookup Table<sup>*</sup>:**
+**Lookup Table<sup><b>*</b></sup>:**\
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200520142906/1461.png">
 
-## How about an example?
+### How about an example?
 The following image demonstrates the steps it takes to encode **"Hi\n"**:
 
 <img src="https://www.redhat.com/rhdc/managed-files/sysadmin/2022-08/30_printable_base64.png">
