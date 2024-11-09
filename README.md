@@ -32,7 +32,9 @@ make
 ```
 
 To run the script, just enter the following command:
-```./main <encode/decode>```
+```
+./main <encode/decode>
+```
 
 From there, your terminal will wait for you to input a string before outputting your requested result.
 
