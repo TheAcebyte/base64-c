@@ -3,10 +3,10 @@
 This repository features a **Base64** encoder and decoder written in pure C.
 
 ## Base64
-### What is Base64?**
+### What is Base64?
 Base64 is an encoding scheme that takes in arbitrary binary data and outputs printable ASCII text.
 
-### Why is it used?**
+### Why is it used?
 Base64 is quite prevalent on the Internet, as it plays a significant role in connecting binary and text data: from embedding media/images/videos in URLs and HTML pages to ensuring compatibility between 7-bit protocols like older versions of [**SMTP**](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol).
 
 ### How does it work?
