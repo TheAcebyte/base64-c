@@ -134,7 +134,7 @@ int main(int argc, char** argv) {
         free(decoded_data);
     }
     else {
-        printf("[ERROR] Second argument is invalid, use [decode/encode].");
+        printf("[ERROR] Second argument is invalid, use <encode|decode>.");
         return 1;
     }
 
