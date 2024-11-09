@@ -25,14 +25,14 @@ The following image demonstrates the steps it takes to encode **"Hi\n"**:
 
 ## Usage
 Make sure you first clone the repository and run the Makefile:
-```
+```bash
 git clone https://github.com/TheAcebyte/base64-c.git
 cd base64-c
 make
 ```
 
 To run the script, just enter the following command:
-```
+```bash
 ./main <encode/decode>
 ```
 
