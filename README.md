@@ -12,13 +12,13 @@ Base64 is quite prevalent on the Internet, as it plays a significant role in con
 ### How does it work?
 Base64 encoding causes an overhead of roughly 33%, as it turns each 3-byte group to a 4-byte group by following the below rules:
 
-**1. Dividing:**\
+**1. Dividing:**
 Split the binary data into groups of 3 bytes (24 bits), with the last one potentially having 1-2 bytes.
 
-**2. Converting:**\ 
+**2. Converting:**
 Turn each 24-bit group to 4x6-bit groups, which are then converted to 4x8-bit groups by mapping them to specific ASCII characters using a lookup table<sup>*</sup>.
 
-**3. Padding:**\
+**3. Padding:**
 In case the last group does not have enough bytes to map to a 4-byte output, the encoded text is padded with equal signs "=".
 
 For example, if you wanted to encode **"Hi\n"**:
