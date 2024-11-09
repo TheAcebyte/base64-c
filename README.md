@@ -14,13 +14,9 @@ Base64 encoding causes an overhead of roughly 33%, as it turns each 3-byte group
 
 **1. Dividing:** Split the binary data into groups of 3 bytes (24 bits), with the last one potentially having 1-2 bytes.
 
-**2. Converting:** Turn each 24-bit group to 4x6-bit groups, which are then converted to 4x8-bit groups by mapping them to specific ASCII characters using a lookup table<sup>*</sup>.
+**2. Converting:** Turn each 24-bit group to 4x6-bit groups, which are then converted to 4x8-bit groups by mapping them to specific ASCII characters using a [lookup table](https://media.geeksforgeeks.org/wp-content/uploads/20200520142906/1461.png).
 
 **3. Padding:** In case the last group does not have enough bytes to map to a 4-byte output, the encoded text is padded with equal signs "=".
-
-**Lookup Table:**
-
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20200520142906/1461.png">
 
 ### How about an example?
 The following image demonstrates the steps it takes to encode **"Hi\n"**:
